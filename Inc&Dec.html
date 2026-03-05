@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increment/Decrement</title>
+</head>
+
+<body>
+    <script>
+
+        console.log("SECTION 2 – Increment / Decrement (11–25)");
+        // Write output for each:
+
+        let a = 5
+        console.log(a++)
+        console.log(a)
+        //  output : 5 , 6
+
+        let a1 = 5
+        console.log(++a1)
+        console.log(a1)
+        // output : 6 , 6
+
+        let a2 = 10 
+        let b = a2++
+        console.log(a2,b )
+        // output : 11 , 10
+
+        let a3 = 10
+        let b2 = ++a3
+        console.log(a3, b2)
+        // output : 11 , 11 
+
+        let a4 = 1
+        let b3 = a4++ + a4++   // 1->2 / 2->3
+        console.log(a4, b3)
+        // output :  3 , 3
+
+        let a5 = 1 
+        let b4 = ++a5 + ++a5     // 2->2 / 3->3
+        console.log(a5, b4)
+        // output :  3 , 5
+
+        let a6 = 3
+        a6 = a6++
+        console.log(a6)
+        // output : 3 
+
+        let a7 = 3
+        a7 = ++a7
+        console.log(a7)
+        // output : 4 
+
+        let x = 5
+        let y = --x
+        console.log(x, y)
+        // output : 4 , 4
+
+        let x1 = 5
+        let y1 = x1--
+        console.log(x1, y1)
+        // output : 4 , 5
+
+        let a8 = 2
+        let b7 = a8++ + ++a8 + a8++    // 2->3 / 4->4 / 4->5
+        console.log(a8, b7)
+        // output : 5 , 10
+
+        let a9 = 4
+        let b8 = --a9 + a9-- + --a9     // 3->3 / 3->2 / 1->1
+        console.log(a9, b8)
+        // output : 1 , 7
+
+
+        let a10 = 1
+        let b9 = ++a10 + a10++ + ++a10  // 2->2 / 2->3 / 4->4
+        console.log(a10, b9)
+        // output : 4 , 8
+
+        let a11 = 5
+        let b10 = a11++ + a11++ + a11++  // 5->6 / 6->7 / 7->8
+        console.log(a11, b10)
+        // output : 8 18
+
+        let a12 = 10
+        a12 += a12++
+        console.log(a12)
+        // output : 20
+
+    </script>
+</body>
+
+</html>
